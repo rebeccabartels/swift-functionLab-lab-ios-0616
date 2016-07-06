@@ -9,6 +9,17 @@ helloWorld()
 
 
 
+
+func goodbyeWorld() {
+    print("Goodbye, World!")
+}
+
+goodbyeWorld()
+
+
+
+
+
 //: Question 2
 func helloPerson() {
     let name = "Eddy"
@@ -17,6 +28,14 @@ func helloPerson() {
 
 helloPerson()
 
+
+
+func goodbyePerson () {
+    let name = "Persephone"
+    print ("Goodbye, \(name)")
+}
+
+goodbyePerson()
 
 
 //: Question 3
@@ -29,6 +48,11 @@ helloName("Jane")
 helloName("Edgar")
 helloName("Ruth")
 
+func iDoNotLikeYou(name:String) {
+    print ("I do not like you, \(name)!")
+}
+
+iDoNotLikeYou("Jon")
 
 
 //: Question 4
@@ -39,6 +63,9 @@ var name2 = "George"
 helloName(name2)
 name2 = "Marcia"
 helloName(name2)
+
+let name3 = "Hades"
+helloName(name3)
 
 
 
